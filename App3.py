@@ -128,4 +128,4 @@ fig_df = recent.copy()
 fig_df.loc[next_date] = pred
 
 st.line_chart(fig_df)
-st.write("Data tail:", data.tail(30))
+
